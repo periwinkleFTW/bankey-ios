@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1417DF102A9DD9F600C9D6BC /* Date_Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1417DF0F2A9DD9F600C9D6BC /* Date_Utils.swift */; };
+		1417DF122A9DDB2F00C9D6BC /* AccountSummaryViewController+Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1417DF112A9DDB2F00C9D6BC /* AccountSummaryViewController+Networking.swift */; };
 		14F2DEE02A78B923000D98D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F2DEDF2A78B923000D98D7 /* AppDelegate.swift */; };
 		14F2DEE42A78B923000D98D7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F2DEE32A78B923000D98D7 /* LoginViewController.swift */; };
 		14F2DEE92A78B925000D98D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14F2DEE82A78B925000D98D7 /* Assets.xcassets */; };
@@ -41,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1417DF0F2A9DD9F600C9D6BC /* Date_Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date_Utils.swift; sourceTree = "<group>"; };
+		1417DF112A9DDB2F00C9D6BC /* AccountSummaryViewController+Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AccountSummaryViewController+Networking.swift"; sourceTree = "<group>"; };
 		14F2DEDC2A78B923000D98D7 /* Bankey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bankey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14F2DEDF2A78B923000D98D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		14F2DEE32A78B923000D98D7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -90,8 +94,8 @@
 			isa = PBXGroup;
 			children = (
 				14F2DEDE2A78B923000D98D7 /* Bankey */,
-				14F2DEF72A899176000D98D7 /* ios-professional-course-main */,
 				14F2DF1C2A9AE7BA000D98D7 /* BankeyUnitTests */,
+				14F2DEF72A899176000D98D7 /* ios-professional-course-main */,
 				14F2DEDD2A78B923000D98D7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -158,6 +162,7 @@
 				14F2DF002A92D7AF000D98D7 /* LocalState.swift */,
 				14F2DF262A9BE5D7000D98D7 /* NSNotificationName.swift */,
 				14F2DF152A9ACB92000D98D7 /* CurrencyFormatter.swift */,
+				1417DF0F2A9DD9F600C9D6BC /* Date_Utils.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -166,6 +171,7 @@
 			isa = PBXGroup;
 			children = (
 				14F2DF072A9325B2000D98D7 /* AccountSummaryViewController.swift */,
+				1417DF112A9DDB2F00C9D6BC /* AccountSummaryViewController+Networking.swift */,
 				14F2DF0F2A95BA8A000D98D7 /* Header */,
 				14F2DF102A95BAAF000D98D7 /* Cells */,
 			);
@@ -312,6 +318,7 @@
 				14F2DEF62A898FE4000D98D7 /* LoginView.swift in Sources */,
 				14F2DF012A92D7AF000D98D7 /* LocalState.swift in Sources */,
 				14F2DF0A2A932941000D98D7 /* AccountSummaryHeaderView.swift in Sources */,
+				1417DF102A9DD9F600C9D6BC /* Date_Utils.swift in Sources */,
 				14F2DF292A9BECEC000D98D7 /* UITextField+SecureToggle.swift in Sources */,
 				14F2DEFE2A92CF30000D98D7 /* DummyViewController.swift in Sources */,
 				14F2DF162A9ACB92000D98D7 /* CurrencyFormatter.swift in Sources */,
@@ -324,6 +331,7 @@
 				14F2DF082A9325B2000D98D7 /* AccountSummaryViewController.swift in Sources */,
 				14F2DEE02A78B923000D98D7 /* AppDelegate.swift in Sources */,
 				14F2DEFA2A91919E000D98D7 /* OnboardingContainerViewController.swift in Sources */,
+				1417DF122A9DDB2F00C9D6BC /* AccountSummaryViewController+Networking.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
