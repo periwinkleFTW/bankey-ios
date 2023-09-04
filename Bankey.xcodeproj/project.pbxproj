@@ -13,6 +13,8 @@
 		1417DF182A9EA22500C9D6BC /* AccountTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1417DF172A9EA22500C9D6BC /* AccountTests.swift */; };
 		14BA03082AA1CE7A0038D0C2 /* SkeletonLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BA03072AA1CE7A0038D0C2 /* SkeletonLoadable.swift */; };
 		14BA030A2AA1CF0E0038D0C2 /* SkeletonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BA03092AA1CF0E0038D0C2 /* SkeletonCell.swift */; };
+		14BA030D2AA41ED40038D0C2 /* ProfileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BA030C2AA41ED40038D0C2 /* ProfileManager.swift */; };
+		14BA030F2AA420D80038D0C2 /* AccountSummaryViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BA030E2AA420D80038D0C2 /* AccountSummaryViewControllerTests.swift */; };
 		14F2DEE02A78B923000D98D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F2DEDF2A78B923000D98D7 /* AppDelegate.swift */; };
 		14F2DEE42A78B923000D98D7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F2DEE32A78B923000D98D7 /* LoginViewController.swift */; };
 		14F2DEE92A78B925000D98D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14F2DEE82A78B925000D98D7 /* Assets.xcassets */; };
@@ -53,6 +55,8 @@
 		1417DF172A9EA22500C9D6BC /* AccountTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountTests.swift; sourceTree = "<group>"; };
 		14BA03072AA1CE7A0038D0C2 /* SkeletonLoadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonLoadable.swift; sourceTree = "<group>"; };
 		14BA03092AA1CF0E0038D0C2 /* SkeletonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonCell.swift; sourceTree = "<group>"; };
+		14BA030C2AA41ED40038D0C2 /* ProfileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileManager.swift; sourceTree = "<group>"; };
+		14BA030E2AA420D80038D0C2 /* AccountSummaryViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSummaryViewControllerTests.swift; sourceTree = "<group>"; };
 		14F2DEDC2A78B923000D98D7 /* Bankey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bankey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14F2DEDF2A78B923000D98D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		14F2DEE32A78B923000D98D7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -110,8 +114,17 @@
 			children = (
 				1417DF152A9EA1B400C9D6BC /* ProfileTests.swift */,
 				1417DF172A9EA22500C9D6BC /* AccountTests.swift */,
+				14BA030E2AA420D80038D0C2 /* AccountSummaryViewControllerTests.swift */,
 			);
 			path = AccountSummary;
+			sourceTree = "<group>";
+		};
+		14BA030B2AA41EBA0038D0C2 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				14BA030C2AA41ED40038D0C2 /* ProfileManager.swift */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 		14F2DED32A78B922000D98D7 = {
@@ -198,6 +211,7 @@
 				1417DF112A9DDB2F00C9D6BC /* AccountSummaryViewController+Networking.swift */,
 				14F2DF0F2A95BA8A000D98D7 /* Header */,
 				14F2DF102A95BAAF000D98D7 /* Cells */,
+				14BA030B2AA41EBA0038D0C2 /* Networking */,
 			);
 			path = AccountSummary;
 			sourceTree = "<group>";
@@ -344,6 +358,7 @@
 				14F2DF032A92E16D000D98D7 /* UIViewController+Utils.swift in Sources */,
 				14BA030A2AA1CF0E0038D0C2 /* SkeletonCell.swift in Sources */,
 				14F2DF2C2A9C23E0000D98D7 /* ShakyBellView.swift in Sources */,
+				14BA030D2AA41ED40038D0C2 /* ProfileManager.swift in Sources */,
 				14F2DEF62A898FE4000D98D7 /* LoginView.swift in Sources */,
 				14F2DF012A92D7AF000D98D7 /* LocalState.swift in Sources */,
 				14F2DF0A2A932941000D98D7 /* AccountSummaryHeaderView.swift in Sources */,
@@ -372,6 +387,7 @@
 				14F2DF252A9AE872000D98D7 /* CurrencyFormatterTests.swift in Sources */,
 				1417DF182A9EA22500C9D6BC /* AccountTests.swift in Sources */,
 				1417DF162A9EA1B400C9D6BC /* ProfileTests.swift in Sources */,
+				14BA030F2AA420D80038D0C2 /* AccountSummaryViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
